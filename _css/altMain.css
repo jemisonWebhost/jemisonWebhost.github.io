@@ -1,0 +1,30 @@
+.nav ul {
+	margin: 3px;
+	border: 2px dashed midnightblue;
+	padding: 5px;
+	display: inline;
+	background-color: turquoise;
+}
+
+.nav li {
+	border: 1px solid midnightblue;
+	padding: 2px;
+	display: inline;
+}
+
+.nav a {
+	color: teal;
+}
+
+.nav .container .pull-left {
+	position: relative;
+	float: left;
+}
+
+.nav .container .pull-right {
+	position: relative;
+	float: right;
+}
+
+.navfill p {
+	
