@@ -2,7 +2,6 @@
 
 <html lang="en-us">
   <head>
-    <base href="https://jemisonWebhost.github.io/site/" />
     <title>
       Landing
     </title>
