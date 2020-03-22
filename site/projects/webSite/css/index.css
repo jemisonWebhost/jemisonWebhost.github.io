@@ -1,0 +1,262 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:
+        'Handlee', cursive;
+    font-size:
+        13pt;
+    background-color:
+        azure;
+    padding: 
+        10px;
+    margin:
+        0;
+}
+h1 {
+    font-size:
+        18pt;
+    color:
+        mediumturquoise;
+    text-align:
+        center;
+    padding:
+        18px 0 18px 0;
+    margin:
+        0 0 10px 0;
+}
+h1 span {
+    border:
+        4px dashed darkturquoise;
+    padding:
+        0 1px 0 1px;
+}
+p {
+    padding:
+        0;
+    margin:
+        5px 0 0 0;
+}
+.img-circle {
+    border:
+        3px solid white;
+    border-radius:
+        50%;
+}
+.section {
+    background-color: 
+        #6a6a6a11;
+    padding: 
+        15px;
+    margin-bottom:
+        10px;
+    border-radius:
+        10px;
+}
+#header {
+    background-image: 
+        url("https://www.sololearn.com/Uploads/header.jpg");
+    background-size: 
+        ;
+}
+#header img {
+    display:
+        block;
+    width:
+        ;
+    height:
+        ;
+    margin:
+        ;
+}
+#header p {
+    font-size: 
+        ;
+    color:
+        ;
+    padding-top:
+        ;
+    margin:
+        ;
+    font-weight:
+        ;
+    text-align:
+        ;
+}
+.quote {
+    font-size:
+        10pt;
+    text-align: 
+        right;
+    margin-top:
+        10px;
+}
+table {
+    width:
+        ;
+}
+table, th, td {
+    border:
+        ;
+    border-collapse:
+        ;
+    text-align:
+        ;
+    table-layout:
+        ;
+}
+.selected {
+    background-color:
+        ;
+    font-weight: 
+        ;
+    color:
+        ;
+}
+li {
+    margin-bottom: 
+        ;
+    font-weight:
+        ;
+}
+progress {
+    width: 
+        ;
+    height: 
+        ;
+    color: 
+        ;
+    background:
+        ;
+}
+progress::-webkit-progress-bar {
+    background: 
+        ;
+}
+progress::-webkit-progress-value {
+    background: 
+        ;
+}
+progress::-moz-progress-bar {
+    color:
+        ;
+    background:
+        ;
+}
+iframe, audio {
+    display: 
+        ;
+    margin:
+        ;
+    border:
+        ;
+}
+hr {
+    border:
+        ;
+    height: 
+        ;
+    background: 
+        ;
+}
+form {
+    text-align: 
+        ;
+    margin-top: 
+        ;
+}
+.submit {
+    background-color: 
+        ;
+    padding: 
+        ;
+    border-radius: 
+        ;
+    cursor: 
+        ;
+    color: 
+        ;
+    border: 
+        ;
+    outline: 
+        ;
+    margin: 
+        ;
+    font-weight: 
+        ;
+}
+.submit:hover {
+    background-color: 
+        ;
+}
+textarea {
+    height: 
+        ;
+}
+input, textarea {
+    margin-bottom: 
+        ;
+    font-size: 
+        ;
+    padding: 
+        ;
+    border: 
+        ;
+    background-color: 
+        ;
+    color: 
+        ;
+    border-radius: 
+        ;
+    width: 
+        ;
+    outline: 
+        ;
+}
+.face {
+    transform: 
+        ;
+    margin: 
+        ;
+    display: 
+        ;
+    margin-top: 
+        ;
+    margin-bottom: 
+        ;
+}
+#contacts img {
+    height: 
+        ;
+    width: 
+        ;
+    display: 
+        ;
+    margin-top: 
+        ;
+    margin-bottom: 
+        ;
+}
+#contacts a {
+    text-decoration: 
+        ;
+}
+#contacts img:hover {
+    opacity: 
+        ;
+}
+#contacts {
+    text-align:
+        ;
+}
+.copyright {
+    font-size: 
+        ;
+    text-align: 
+        ;
+    padding-bottom: 
+        ;
+    color:
+        ;
+}
