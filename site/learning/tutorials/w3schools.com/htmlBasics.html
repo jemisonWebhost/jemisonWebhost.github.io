@@ -13,7 +13,7 @@
 		</section>
 		<section>
 			<h1>
-				HTML Home
+				HTML Basic Examples
 			</h1>
 			<ul>
 				<li>
@@ -22,13 +22,157 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="htmlElements">
 						Next &#45;&#45;&#62;
 					</a>
 				</li>
 			</ul>		
 		</section>
-				<aside>
+		<section>
+			<h2>
+				HTML Documents
+			</h2>
+			<p>
+				All HTML documents must start with a document type delcaration: <code>&lt;!DOCTYPE html&gt;</code>. The HTML that affects your page begins with <code>&lt;html&gt;</code> and ends with <code>&lt;/html&gt;</code>. The visible part of the HTML document is between <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code>.
+			</p>
+			<h3>
+				Example:
+			</h3>
+			<p>
+				<code>
+					<pre>&lt;!doctype HTML&gt;      ###Note that my letter casing is different than above. It's okay, it will display the same.
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;h1&gt;My First Heading&lt;/h1&gt;
+&lt;p&gt;My first paragraph&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+				</code>
+			</p>
+		</section>
+		<section>
+			<h2>
+				HTML Headings
+			</h2>
+			<p>
+				HTML headings are defined with the <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags. <code>&lt;h1&gt;</code> defines the most important heading. <code>&lt;h6&gt;</code> defines the least important heading.
+			</p>
+			<h3>
+				Example
+			</h3>
+			<sub>For this example, try right-clicking in your browser and viewing the page source.</sub>
+			<!-- Example begin -->
+														<h1>
+															This is heading 1
+														</h1>
+														<h2>
+															This is heading 2
+														</h2>
+														<h3>
+															This is heading 3
+														</h3>
+														<h4>
+															This is heading 4
+														</h4>
+														<h5>
+															This is heading 5
+														</h5>
+														<h6>
+															This is heading 6
+														</h6>
+			<!-- Example end -->
+		</section>
+		<section>
+			<h2>
+				HTML paragraphs
+			</h2>
+			<p>
+				HTML paragraphs are defined with the <code>&lt;p&gt;</code> tag.
+			</p>
+			<h3>
+				Example
+			</h3>
+			<sub>For this example, try right-clicking in your browser and viewing the page source.</sub>
+			<!-- Example begin -->
+															<p>This is a paragraph.</p>
+															<p>This is another paragraph.</p>
+			<!-- Example end -->
+		</section>
+		<section>
+			<h2>
+				HTML Links
+			</h2>
+			<p>
+				HTML links are defined with the <code>&lt;a&gt;</code> tag.
+			</p>
+			<h3>
+				Example
+			</h3>
+			<code>
+				<pre>&lt;a href="https://jemisonwebhost.github.io/:&gt;This is a link&lt;/a&gt;</pre>
+			</code>
+			<p>
+				The link's destination is specified in the <code>href</code> attribute. Attributes are used to provide additional information about HTML elements. You may learn about attributes <a href="#">
+																												here
+																											</a>.
+			</p>
+		</section>
+		<section>
+			<h2>
+				HTML Images
+			</h2>
+			<p>
+				HTML images are defined with the <code>&lt;img&gt;</code> tag. The source file (<code>src</code>), alternative text (<code>alt</code>), <code>width</code>, and <code>height</code> are provided as attributes.
+			</p>
+			<h3>
+				Example
+			</h3>
+			<code>
+				<pre>&lt;img src="images/example1.png" alt="HTML example width="80%" height="80%"&gt;</pre>
+			</code>
+			<p>
+				Which gets you
+			</p>
+			<img src="resources/images/example1.png" alt="HTML example" width="50%" height="50%">
+		</section>
+		<section>
+			<h2>
+				HTML Buttons
+			</h2>
+			<p>
+				HTML buttons are defined with the <code>&lt;button&gt; tag.</code>
+			</p>
+			<h3>
+				Example
+			</h3>
+			<sub>For this example, try right-clicking in your browser and viewing the page source.</sub>
+			<button>Click me</button>
+		</section>
+		<section>
+			<h2>
+				HTML Lists
+			</h2>
+			<p>
+				HTML lists are defined with the <code>&lt;ul&gt;</code> (unordered/bullet list) or the <code>&lt;ol&gt;</code> (ordered/numbered litst) tage, followed by <code>&lt;li&gt;</code> tags (list items).
+			</p>
+			<h3>
+				Example
+			</h3>
+			<sub>For this example, try right-clicking in your browser and viewing the page source.</sub>
+			<ul>
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ul>
+			<ol>
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ol>
+		</section>
+		<aside>
 			<cite>
 				Sourced from w3schools, 
 				<a href="https://www.w3schools.com/html/default.asp">
