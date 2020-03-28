@@ -6,15 +6,28 @@
 		<title>
 			Zootopia Museum Exhibit Guide
 		</title>
+		<link rel="stylesheet" type="text/css" href="resources/css/main.css" />
 	</head>
 	<body>
+		<!-- Nav bar -->
 		<section class="nav">
 		</section>
 		<section class="Content">
-		<h1>
-			Fossil Exhibit Guide
-		</h1>
-			<ol>
+			
+			<!-- Tab links -->
+			<div class="tab">
+				<button class="tablinks" onclick="openList(event, 'Fossils')">Fossil Guide</button>
+				<button class="tablinks" onclick="openList(event, 'Bugs')">Bug Guide</button>
+				<button class="tablinks" onclick="openList(event, 'Fish')">Fish Guide</button>
+				<button class="tablinks" onclick="openList(event, 'Art')">Art Guide</button>
+			</div>
+			
+			<!-- Tab content -->
+			<div id="Fossils" class="tabcontent">
+				<h3>
+					Fossil Exhibit Guide
+				</h3>
+							<ol>
 				<li>
 					<b><u>Coprolite</u></b> <i>(Donated By Laura)</i> <br><sup>[1,100 Bells]</sup>
 				</li>
@@ -111,110 +124,84 @@
 					<b><u>Archelon Torso</u></b> <i>(Donated By Laura)</i> <br><sup>[3,500 Bells]</sup>
 				</li>
 			</ol>
-			<h1>
-				Bug Exhibit Guide
-			</h1>
-			<h3>
-				Times for catching bugs
-			</h3>
-			<p>
-				<b>Morning</b>: 4:00am-9:00a.<br>
-				<b>Noon</b>: 9:00am-4:00pm.<br>
-				<b>Evening</b>: 4:00pm-8:00pm.<br>
-				<b>Night</b>: 8:00pm-4:00am.
-			</p>
-			<h3>
-				Places for catching bugs
-			</h3>
-			<p>
-				<b>In trees<i>{IT}</i></b>: Bees and spiders can be found in trees. In order to get these, you have to shake non-fruit bearing trees. With bees, you will see a beehive fall. You only have a half-second once it does to hit the beehive with your net and catch the bee. Not every tree will have a beehive. If you wait too long or you miss, the bees will sting you and mark your face. You can cure a beesting with medicine from the Nookling's store. Alternatively, you can save your game, or open your town's gate. Beehives will not fall when the town gate is open - however, furniture and bells still will.
-			</p>
-			<p>
-				<b>On trees</b>: Many bugs are found sitting on the tree trunks. Sometimes they can blend in and are hard to see, so it’s a good idea to walk around slowly if you want to catch them. Just like fish, the bugs will fly (or run) away if you scare them. The best way to catch bugs on trees is to slowly approach the tree from the front. Then, when your characters head is approximately half-way up the trunk (or your feet are almost touching the shadow of the tree), swing the net. Some beetles will only spawn on specific tree types: <b>Oak trees <i>{OT}</i></b>, <b>Cedar Trees <i>{CT}</i></b>, <b>Palm Trees (including fruit) <i>{PT}</i></b>, <b>Fruit Trees</b> <i>{FT}</i>, <b>Tree Stumps <i>{TS}</i></b>
-			</p>
-			<p>
-				<b>By garbage <i>{BG}</i></b>: It's a bad idea to leave garbage around your town. However, garbage and spoiled turnips attract flies, which are hard to catch. Spoiled turnips will also attract ants.
-			</p>
-			<p>
-				<b>Near lights <i>{NL}</i></b>: Like in real life, some bugs can be found near lit windows and lanterns in the evenings.
-			</p>
-			<p>
-				<b>Underground <i>{UG}</i></b>: These bugs make a little noise as you pass near where they lurk underground. You can dig around to find them. You may need to dig a few holes before it shows itself.
-			</p>
-			<p>
-				<b>On the ground <i>{OG}</i></b>: One of the most common places to find bugs. Some bugs will run from you. Other bugs will chase you and attack you. If they get you, you usually will fall unconcious and wake up at your house groggy. The best way to catch these bugs is to slowly walk towards them so you don't scare them away or make them attack you.
-			</p>
-			<p>
-				<b>On neighbors <i>{ON}</i></b>: Sometimes your villagers will get fleas. Enough said.
-			</p>
-			<p>
-				<b>On flowers/Near flowers <i>{OF}/{NF}</i></b>: Honeybees, butterflies, and other bugs can be found on flowers. Different colored flowers attract different colored bugs. It's a good idea to have plenty of flowers in your town.
-			</p>
-			<p>
-				<b>In the air <i>{IA}</i></b>: Enough said.
-			</p>
-			<ol>
+			</div>
+			<div id="Bugs" class="tabcontent">
+				<h3>
+					Bug Exhibit Guide
+				</h3>
+				<p>
+					<b>Locations guide:</b> | {NF} Near Flowers | {IT} In Trees | {BG} By Garbage | {OT} Oak Trees | {CT} Cedar Trees | {PT} Palm Trees (including fruit) | {FT} Fruit Trees | {TS} Tree Stumps | {NL} Near Lights | {UG} Underground | {OG} On the Ground | {ON} On Neighbors | {OF} On Flowers | {IA} In the Air
+				</p>
+				<ol>
 				<li>
 					<b><u>Common Butterfly</u></b>	<i>(Donated by Laura)</i> <br><sup>[90 Bells] </sup> <i><sup>{NF}</sup></i>
 				</li>
+				<br>
 				<li>
 					<b><u>Yellow Butterfly</u></b>	<i>(Donated by Laura)</i> <br><sup>[90 Bells]</sup> <i><sup>{NF}</sup></i>
 				</li>
+					<br>
 				<li>
 					<b><u>Tiger Butterfly</u></b>	<i>(Donated by Laura)</i> <br><sup>[160 Bells]</sup> <i><sup>{NF}</sup></i>
 				</li>
+					<br>
 				<li>
 						<b><u>Monarch Butterfly</u></b>	<i>(Donated by Laura)</i> <br><sup>[140 Bells]</sup> <i><sup>{NF}</sup></i>
 				</li>
+					<br>
 				<li>
 					<b><u>Agrias Butterfly</u></b> <i>(Donated by Laura)</i> <br><sup>[3,000 Bells]</sup> <i><sup>{NF}</sup></i>
 				</li>
+					<br>
 				<li>
 					<b><u>Birdwing Butterfly</u></b> <i>(Donated by Laura)</i> <br><sup>[4,000 Bells]</sup> <i><sup>{IA}</sup></i>
 				</li>
+					<br>
 				<li>
 					<b><u>Oak Silk Moth</u></b>	<i>(Donated by Laura)</i> <br><sup>[1,200 Bells]</sup> <i><sup>{OT}</sup></i>
 				</li>
+					<br>
 				<li>
 					<b><u>Honeybee</u></b> <i>(Donated by Laura)</i> <br><sup>[100 Bells]</sup> <i><sup>{NF}</sup></i>
 				</li>
+					<br>
 				<li>
 					<b><u>Mantis</u></b> <i>(Donated by Laura)</i> <br><sup>[430 Bells]</sup> <i><sup>{OF}</sup></i>
 				</li>
+					<br>
 				<li>
 					<b><u>Stinkbug</u></b>	<i>(Donated by Laura)</i> <br><sup>[120 Bells]</sup>
 				</li>
+					<br>
 				<li>
 					<b><u>Grasshopper</u></b>	<i>(Donated by Laura)</i> <br><sup>[160 Bells]</sup> <i><sup>{OG}</sup></i>
 				</li>
+					<br>
 				<li>
 					<b><u>Ladybug</u></b>	<i>(Donated by Laura)</i> <br><sup>[200 Bells]</sup> <i><sup>{OF}</sup></i>
 				</li>
+					<br>
 				<li>
 					<b><u>Fruit Beetle</u></b>	<i>(Donated by Laura)</i> <br><sup>[100 Bells]</sup> <i><sup>{OT}</sup></i>
 				</li>
+					<br>
 				<li>
 					<b><u>Saw Stag</u></b>	<i>(Donated by Laura)</i> <br><sup>[2,000 Bells]</sup> <i><sup>{OT}</sup></i>
 				</li>
+					<br>
 				<li>
-					<b><u>Golden Stag</u></b>	<i>(Donated by Laura)</i> <br><sup>[ Bells]</sup> <i><sup>{}</sup></i>
+					<b><u>Golden Stag</u></b>	<i>(Donated by Laura)</i> <br><sup>[12,000 Bells]</sup> <i><sup>{PT}</sup></i>
+				</li>
+				<li>
+					<b><u></u></b>	<i>(Donated by Laura)</i> <br><sup>[ Bells]</sup> <i><sup>{}</sup></i>
 				</li>
 			</ol>
-			<h1>
-				Fish Exhibit Guide
-			</h1>
-			<h3>
-				Areas for fishing
-			</h3>
-			<p>
-				<b>Pond <i>{P}</i></b><br>
-				<b>River <i>{R}</i></b><br>
-				<b>Ocean <i>{O}</i></b><br>
-				<b>Island <i>{I}</i></b><br>
-				<b>Waterfall <i>{W}</i></b><br>
-				<b>Diving <i>{D}</i></b><br>
-			</p>
-			<ol>
+			</div>
+			<div id="Fish" class="tabcontent">
+				<h3>
+					Fish Exhibit Guide
+				</h3>
+				<ol>
 				<li>
 					<b><u>Pale Chub</u></b>	<i>(Donated by Laura)</i> <br><sup>[200 Bells]</sup> <i><sup>{R}</sup></i>
 				</li>
@@ -366,14 +353,95 @@
 					<b><u></u></b>	<i>(Donated by Laura)</i> <br><sup>[ Bells]</sup> <i><sup>{}</sup></i>
 				</li>
 			</ol>
-			<h1>
+			</div>
+			<div id="Art" class="tabcontent">
+				<h3>
 				Art Exhibit Guide
-			</h1>
+			</h3>
 			<ol>
 				<li>
 					<b><u>Basic Painting</u></b>	<i>(Donated by Laura)</i>
 				</li>
 			</ol>
+			</div>
+			<script>
+				function openList(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+} 
+			</script>
+			<!--
+			<article>
+				<h3>
+				Times for catching bugs
+			</h3>
+				<p>
+				<b>Morning</b>: 4:00am-9:00a.<br>
+				<b>Noon</b>: 9:00am-4:00pm.<br>
+				<b>Evening</b>: 4:00pm-8:00pm.<br>
+				<b>Night</b>: 8:00pm-4:00am.
+			</p>
+				<h3>
+				Places for catching bugs
+			</h3>
+				<p>
+				<b>In trees<i>{IT}</i></b>: Bees and spiders can be found in trees. In order to get these, you have to shake non-fruit bearing trees. With bees, you will see a beehive fall. You only have a half-second once it does to hit the beehive with your net and catch the bee. Not every tree will have a beehive. If you wait too long or you miss, the bees will sting you and mark your face. You can cure a beesting with medicine from the Nookling's store. Alternatively, you can save your game, or open your town's gate. Beehives will not fall when the town gate is open - however, furniture and bells still will.
+			</p>
+				<p>
+				<b>On trees</b>: Many bugs are found sitting on the tree trunks. Sometimes they can blend in and are hard to see, so it’s a good idea to walk around slowly if you want to catch them. Just like fish, the bugs will fly (or run) away if you scare them. The best way to catch bugs on trees is to slowly approach the tree from the front. Then, when your characters head is approximately half-way up the trunk (or your feet are almost touching the shadow of the tree), swing the net. Some beetles will only spawn on specific tree types: <b>Oak trees <i>{OT}</i></b>, <b>Cedar Trees <i>{CT}</i></b>, <b>Palm Trees (including fruit) <i>{PT}</i></b>, <b>Fruit Trees</b> <i>{FT}</i>, <b>Tree Stumps <i>{TS}</i></b>
+			</p>
+				<p>
+				<b>By garbage <i>{BG}</i></b>: It's a bad idea to leave garbage around your town. However, garbage and spoiled turnips attract flies, which are hard to catch. Spoiled turnips will also attract ants.
+			</p>
+				<p>
+				<b>Near lights <i>{NL}</i></b>: Like in real life, some bugs can be found near lit windows and lanterns in the evenings.
+			</p>
+				<p>
+				<b>Underground <i>{UG}</i></b>: These bugs make a little noise as you pass near where they lurk underground. You can dig around to find them. You may need to dig a few holes before it shows itself.
+			</p>
+				<p>
+				<b>On the ground <i>{OG}</i></b>: One of the most common places to find bugs. Some bugs will run from you. Other bugs will chase you and attack you. If they get you, you usually will fall unconcious and wake up at your house groggy. The best way to catch these bugs is to slowly walk towards them so you don't scare them away or make them attack you.
+			</p>
+				<p>
+				<b>On neighbors <i>{ON}</i></b>: Sometimes your villagers will get fleas. Enough said.
+			</p>
+				<p>
+				<b>On flowers/Near flowers <i>{OF}/{NF}</i></b>: Honeybees, butterflies, and other bugs can be found on flowers. Different colored flowers attract different colored bugs. It's a good idea to have plenty of flowers in your town.
+			</p>
+				<p>
+				<b>In the air <i>{IA}</i></b>: Enough said.
+			</p>
+			</article>
+			<article>
+			<h3>
+				Areas for fishing
+			</h3>
+			<p>
+				<b>Pond <i>{P}</i></b><br>
+				<b>River <i>{R}</i></b><br>
+				<b>Ocean <i>{O}</i></b><br>
+				<b>Island <i>{I}</i></b><br>
+				<b>Waterfall <i>{W}</i></b><br>
+				<b>Diving <i>{D}</i></b><br>
+			</p>
+			</article>
+-->
 		</section>
 	</body>
 </html>
