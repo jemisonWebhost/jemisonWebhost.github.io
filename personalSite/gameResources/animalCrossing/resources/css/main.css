@@ -3,7 +3,7 @@ html {
   	slategrey;
 }
 
-/* Styling my tabs */
+/* Styling my tabs under the navbar */
 .tab {
 	overflow:
 		hidden;
@@ -13,7 +13,6 @@ html {
 		aliceblue;
 }
 
-/* Styling my buttons */
 .tab button {
 	background-color:
 		inherit;
@@ -41,7 +40,6 @@ html {
 		deepskyblue;
 }
 
-/* Styling my tab content */
 .tabcontent {
 	display:
 		none;
@@ -52,3 +50,5 @@ html {
 	border-top:
 		none;
 }
+
+/* End Tabs */
